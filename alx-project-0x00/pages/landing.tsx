@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/components/Button"; // ✅ fixed import path
+import Button from "@/components/Button"; // alias import ✅
 
 const Landing: React.FC = () => {
   return (
@@ -31,4 +31,5 @@ const Landing: React.FC = () => {
 };
 
 export default Landing;
+
 
